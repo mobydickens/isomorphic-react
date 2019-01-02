@@ -4,6 +4,7 @@
   "description": "An isomorphic React application implementing latest development standards",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "build": "cross-env webpack --config ./webpack.config.prod.babel.js",
     "postinstall": "npm install -g babel-cli@6.26.0 cross-env@5.0.5 webpack@3.6.0",
     "start": "npm run start-prod",
@@ -30,6 +31,7 @@
     "fs-extra": "^4.0.2",
     "history": "^4.7.2",
     "isomorphic-fetch": "^2.2.1",
+    "jest-cli": "^23.6.0",
     "lodash": "^4.17.4",
     "optimist": "^0.6.1",
     "react": "^16.0.0",
